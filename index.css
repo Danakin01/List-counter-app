@@ -1,0 +1,139 @@
+body {
+    background-image: url("https://th.bing.com/th/id/R.96a6968e58b6b834a00c450a759fa7a3?rik=l3BrqOEvPjVLrw&pid=ImgRaw&r=0");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container{
+    background: rgba(255, 255, 255, 0.416);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 200px;
+    animation: fadeIn 2s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    }
+
+h1 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 button {
+    border: none;
+    font-size: 10px;
+    background-image: url("https://th.bing.com/th/id/R.46ceb019c0ea8c3508a71f896cb17ce9?rik=DKDhho%2bbc%2b5tVw&riu=http%3a%2f%2fpngimg.com%2fuploads%2fbuttons%2fbuttons_PNG46.png&ehk=RIeABfCuNbwH%2f0NOLKg44DCBbilo3T6OXTt%2bcYx78rk%3d&risl=&pid=ImgRaw&r=0");
+    background-size: contain;
+    background-position: center;
+    padding-top: 3px;
+    background-repeat: no-repeat;
+    padding-bottom: 3px;
+    color: white;
+    font-weight: bold;
+    width: 40px;
+    margin-bottom: 5px;
+    border-radius: 35px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0214036d;
+    transform: scale(0.97);
+    color: rgb(0, 0, 0);
+}
+
+#increment-btn {
+    background: darkred;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#save-btn {
+    background: darkgreen;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#save-el {
+    background: darkgreen;
+    cursor: wait;
+    padding-bottom: 50px;
+    transition: background-color 0.3s ease;
+}
+.rightheaderwheel {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 56%;
+    border-radius: 50%;
+    background: conic-gradient(
+        rgba(0, 0, 0, 0) 0 12.5%, 
+        rgba(0, 0, 0, 0.08) 12.6% 25%, 
+        rgba(0, 0, 0, 0.132) 25.1% 37.5%, 
+        rgba(0, 0, 0, 0.121) 37.6% 50%, 
+        rgba(0, 0, 0, 0.247) 50.1% 62.5%, 
+        rgba(0, 0, 0, 0.4) 62.6% 75%, 
+        rgba(0, 0, 0, 0.753) 75.1% 87.5%, 
+        rgb(0, 0, 0) 87.6% 100%
+    );
+    animation: spin2 10s linear infinite;
+}
+.leftheaderwheel {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 42%;
+    border-radius: 50%;
+    background: conic-gradient(
+        rgba(0, 0, 0, 0) 0 12.5%, 
+        rgba(0, 0, 0, 0.08) 12.6% 25%, 
+        rgba(0, 0, 0, 0.132) 25.1% 37.5%, 
+        rgba(0, 0, 0, 0.121) 37.6% 50%, 
+        rgba(0, 0, 0, 0.247) 50.1% 62.5%, 
+        rgba(0, 0, 0, 0.4) 62.6% 75%, 
+        rgba(0, 0, 0, 0.753) 75.1% 87.5%, 
+        rgb(0, 0, 0) 87.6% 100%
+    );
+    animation: spin1 10s linear infinite;
+}
+@keyframes spin1 {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes spin2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
